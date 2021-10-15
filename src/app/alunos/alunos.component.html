@@ -1,0 +1,19 @@
+<div class="card border-dark m-3" style="max-width: 80rem">
+  <div class="card-header">Alunos</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title">Busque por um aluno</h5>
+    <input type="text" #idAluno placeholder="Digite o nome do aluno" />
+    <button class="btn-primary ml-1">Buscar</button>
+    <div class="mt-3">
+      <ul class="list-group" *ngFor="let aluno of alunos">
+        <li
+          class="list-group-item list-group-item-action"
+          [routerLink]="['/alunos', aluno.id]"
+          routerLinkActive="active"
+        >
+          {{ aluno.nome }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

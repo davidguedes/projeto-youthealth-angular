@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nome": "David Guedes",
+    "curso": "cc",
+    "email": "david@gmail.com",
+    "senha": "123",
+    "tipoUsuario": ["aluno", "administrador"]
+  },
+  {
+    "id": "2",
+    "nome": "Aleksander",
+    "curso": "fisio",
+    "email": "alex@gmail.com",
+    "senha": "123",
+    "tipoUsuario": ["aluno"]
+  },
+  {
+    "id": "3",
+    "nome": "Giovanna",
+    "curso": "dan",
+    "email": "giovanna@gmail.com",
+    "senha": "123",
+    "tipoUsuario": ["aluno"]
+  }
+]
